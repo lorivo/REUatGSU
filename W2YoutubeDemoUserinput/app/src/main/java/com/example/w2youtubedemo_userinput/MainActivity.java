@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         //
         ((TextView)findViewById(R.id.tv1)).setText(inp);
 
+        //makes alert notification
         Toast.makeText(this, "Alert",Toast.LENGTH_LONG).show();
 
         Log.d("info",inp);
